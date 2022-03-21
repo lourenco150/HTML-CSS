@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Tabela-Desafio1</title>
     <style>
-        body {
+        body{
             font-family:Arial, Helvetica, sans-serif;
         }
 
         table{
             border-collapse: collapse;
-            width: 300px;
+            width: 400px;
         }
 
-        td {
+        td{
             border: 1px solid black;
             padding: 10px;
             text-align: center;
@@ -23,22 +23,36 @@
     </style>
 </head>
 <body>
-    <h1>Mesclagem de celulas</h1>
+    <h1>Desafio 1</h1>
     <table>
         <tr>
-            <td>a</td>
-            <td colspan="2">b</td>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
         </tr>
+
         <tr>
-            <td rowspan="3">d</td>
-            <td>e</td>
-            <td rowspan="2">f</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td> 
         </tr>
+
         <tr>
-            <td>h</td>
+            <td colspan="3">8</td>
+            <td>9</td>
         </tr>
+
         <tr>
-            <td colspan="2">l</td>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
         </tr>
     </table>
 </body>
