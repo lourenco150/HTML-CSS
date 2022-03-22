@@ -49,10 +49,10 @@
         <caption>Notas das disciplinas</caption>
         <thead>
             <tr>
-                <th rowspan="2" class="pin">Área</th>
-                <th rowspan="2" class="pin">Dsiciplinas</th>
-                <th colspan="2" class="pin">Notas</th>
-                <th rowspan="2" class="pin">Média</th>
+                <th scope="rowgroup" rowspan="2" class="pin">Área</th>
+                <th scope="rowgroup" rowspan="2" class="pin">Dsiciplinas</th>
+                <th scope="rowgroup" colspan="2" class="pin">Notas</th>
+                <th scope="rowgroup" rowspan="2" class="pin">Média</th>
             </tr>
 
             <tr>
@@ -63,7 +63,7 @@
 
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th scope="colgroup" rowspan="4">Exatas</th>
                 <th class="dis">Matemática</th>
                 <td class="nota">0.0</td>
                 <td class="nota">0.0</td>
@@ -92,12 +92,12 @@
             </tr>
 
             <tr>
-                <th colspan="4" class="pin">Média de exatas</th>
+                <th scope="col" colspan="4" class="pin">Média de exatas</th>
                 <td id="me" class="pin">0.0</td>
             </tr>
 
             <tr>
-               <th rowspan="2">Humanas</th> 
+               <th scope="colgroup" rowspan="2">Humanas</th> 
                <th class="dis">Historia</th>
                <td class="nota">0.0</td>
                 <td class="nota">0.0</td>
@@ -112,7 +112,7 @@
             </tr>
 
             <tr>
-                <th colspan="4" class="pin">Média de humanas</th>
+                <th scope="col" colspan="4" class="pin">Média de humanas</th>
                 <td id="me" class="pin">0.0</td>
             </tr>
         </tbody>
